@@ -31,7 +31,7 @@ VAD_PADDING_MS = int(os.getenv("VAD_PADDING_MS", "600"))        # ms
 # VOSK
 # ===========================
 # Örn: ./models/vosk-model-small-tr-0.4
-VOSK_MODEL_PATH = os.getenv("VOSK_MODEL_PATH", "./models/vosk-model-small-tr-0.4")
+VOSK_MODEL_PATH = os.getenv("VOSK_MODEL_PATH", "./models/vosk-model-small-tr-0.3")
 VOSK_MODEL_PATH = _abs_path(VOSK_MODEL_PATH)
 
 # ===========================
