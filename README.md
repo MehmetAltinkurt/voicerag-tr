@@ -10,15 +10,16 @@ Bu repo **paket paket** ilerleyecek; önce **RAG** katmanını kurup test ediyor
 ## Yol Haritası (yüksek seviye)
 
 - [x] Proje adı & repo
-- [ ] **Paket 1: RAG**
+- [x] Paket 1: TTS (Piper/Coqui TTS; Türkçe ses)
+- [x] Paket 2: ASR (faster-whisper; Türkçe konuşma tanıma)
+- [ ] **Paket 3: Echo** (Orchestrator paketiyle streamlit kullanarak basit bir konuştuğunu dinle)
+- [ ] Paket 4: RAG
   - [ ] Dizinler: `services/rag/`
   - [ ] FastAPI servisi: `/ingest`, `/search`, `/healthz`, `/readyz`, `/version`, `/metrics`
   - [ ] Qdrant ile vektör arama
   - [ ] `bge-m3` embedder ile çok dilli gömme
   - [ ] Örnek ingest & arama testleri
-- [ ] Paket 2: Agent (LLM + tool-calling; RAG’i kullanarak **yalnızca kaynaklı** yanıt üretimi)
-- [ ] Paket 3: TTS (Piper/Coqui TTS; Türkçe ses)
-- [ ] Paket 4: ASR (faster-whisper; Türkçe konuşma tanıma)
+- [ ] Paket 5: Agent (LLM + tool-calling; RAG’i kullanarak **yalnızca kaynaklı** yanıt üretimi)
 - [ ] (Opsiyonel) Gateway (WebRTC/SIP/WS köprüsü)
 - [ ] CI/CD (GitHub Actions), gözlemlenebilirlik ve kalite
 
