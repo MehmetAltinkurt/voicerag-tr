@@ -28,6 +28,7 @@ MANIFEST
 piper/
 models/
 bin/
+whisper.cpp/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
